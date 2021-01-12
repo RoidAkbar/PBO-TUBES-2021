@@ -1,13 +1,13 @@
-public class Player implements Attacking, Defending, Intractable, Escaping{
+public class Enemy implements Attacking, Defending, Intractable, Escaping {
     private String classChar;
     private String weapon;
 
-    public Player(String classPlayer, String weapon) {
-        this.classChar = classPlayer;
+    public Enemy(String classChar, String weapon) {
+        this.classChar = classChar;
         this.weapon = weapon;
     }
 
-    public String getClassPlayer() {
+    public String getClassChar() {
         return classChar;
     }
 

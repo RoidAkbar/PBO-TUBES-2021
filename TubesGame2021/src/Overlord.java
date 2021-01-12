@@ -1,8 +1,8 @@
-public class Player implements Attacking, Defending, Intractable, Escaping{
+public class Overlord implements Attacking, Defending, Intractable, Escaping{
     private String classChar;
     private String weapon;
 
-    public Player(String classPlayer, String weapon) {
+    public Overlord(String classPlayer, String weapon) {
         this.classChar = classPlayer;
         this.weapon = weapon;
     }
