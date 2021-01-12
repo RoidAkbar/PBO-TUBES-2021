@@ -1,3 +1,3 @@
-public interface Defending {
+interface Defending {
     public void defend();
 }

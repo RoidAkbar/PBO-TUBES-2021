@@ -1,3 +1,3 @@
-public interface Escaping {
+interface Escaping {
     public void escape();
 }
